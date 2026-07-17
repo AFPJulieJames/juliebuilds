@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Julie Builds, sales truths, real life at 40+, tools I actually use</title>
+<meta name="description" content="I've spent 12 years building my own book of business, and keeping it independent. Sales truths, real life at 40+, and the tools I actually use.">
+<!-- Open Graph (for when the link is shared) -->
+<meta property="og:title" content="Julie Builds">
+<meta property="og:description" content="12 years building my own book of business, and keeping it independent. Sales truths · real life at 40+ · tools I actually use.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://juliebuilds.com">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#faf6f1; --card:#ffffff; --ink:#1c1a19; --muted:#6f6a66;
+    --accent:#ff5c8a; --accent-ink:#c62f61; --line:#ece4db; --tiktok:#111;
+    --radius:16px; --shadow:0 10px 30px rgba(40,30,25,.08);
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:
+      radial-gradient(1200px 500px at 50% -200px, #ffe6ef 0%, rgba(255,230,239,0) 60%),
+      var(--bg);
+    color:var(--ink);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 18px 60px}
+  .wrap{max-width:520px;margin:0 auto}
+  header{text-align:center;padding:44px 0 10px}
+  .avatar{width:112px;height:112px;border-radius:50%;margin:0 auto 18px;overflow:hidden;
+    border:3px solid #fff;box-shadow:var(--shadow);background:linear-gradient(135deg,#ff8fb1,#ff5c8a);
+    display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Fraunces',serif;
+    font-size:38px;font-weight:700}
+  .avatar img{width:100%;height:100%;object-fit:cover;display:block}
+  h1{font-family:'Fraunces',serif;font-size:30px;font-weight:700;letter-spacing:-.01em}
+  .handle{color:var(--accent-ink);font-weight:600;font-size:14px;margin-top:2px}
+  .tagline{color:var(--muted);font-size:15px;margin:14px auto 0;max-width:420px}
+  .kicker{display:inline-block;background:#fff;border:1px solid var(--line);color:var(--muted);
+    font-size:12px;font-weight:600;padding:5px 12px;border-radius:999px;margin-top:16px}
+  section{margin-top:16px}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+    padding:20px;box-shadow:var(--shadow)}
+  .card h2{font-family:'Fraunces',serif;font-size:20px;font-weight:600;margin-bottom:6px}
+  .card p.sub{color:var(--muted);font-size:14px;margin-bottom:14px}
+  /* buttons */
+  .btn{display:flex;align-items:center;gap:12px;width:100%;text-decoration:none;color:var(--ink);
+    background:#fff;border:1px solid var(--line);border-radius:14px;padding:15px 16px;font-weight:600;
+    font-size:15px;transition:transform .08s ease, box-shadow .15s ease;box-shadow:0 2px 0 rgba(40,30,25,.03)}
+  .btn:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+  .btn .ico{width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;
+    font-size:17px;flex:none;background:#faf6f1}
+  .btn .meta{display:flex;flex-direction:column;line-height:1.25}
+  .btn .meta small{color:var(--muted);font-weight:500;font-size:12px}
+  .btn .arrow{margin-left:auto;color:var(--muted)}
+  .btn.tiktok .ico{background:#111;color:#fff}
+  .btn.shop .ico{background:#ffe6ef;color:var(--accent-ink)}
+  .stack{display:flex;flex-direction:column;gap:10px}
+  /* newsletter */
+  .news{background:linear-gradient(160deg,#fff 0%,#fff7fa 100%);border-color:#ffd9e6}
+  .email-row{display:flex;gap:8px;flex-wrap:wrap}
+  .email-row input{flex:1;min-width:180px;border:1px solid var(--line);border-radius:12px;padding:14px;
+    font-size:15px;font-family:inherit}
+  .email-row button{background:var(--accent);color:#fff;border:none;border-radius:12px;padding:14px 20px;
+    font-weight:700;font-size:15px;cursor:pointer}
+  .email-row button:hover{filter:brightness(1.05)}
+  .tiny{font-size:12px;color:var(--muted);margin-top:10px}
+  /* about */
+  .about p{color:#403b37;font-size:14.5px;margin-bottom:10px}
+  .about p:last-child{margin-bottom:0}
+  footer{text-align:center;color:var(--muted);font-size:12px;margin-top:26px}
+  footer a{color:var(--accent-ink);text-decoration:none}
+  .divider{height:1px;background:var(--line);margin:18px 0}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="avatar">
+      <!-- Drop a square photo named julie.jpg in this folder to replace the monogram -->
+      <img src="julie.jpg" alt="Julie" onerror="this.style.display='none';this.parentNode.innerHTML='JB'">
+    </div>
+    <h1>Julie Builds</h1>
+    <div class="handle">@juliethebuilder</div>
+    <p class="tagline">12 years building my own book of business, and keeping it independent. Sales truths, real life at 40+, and the tools I actually use.</p>
+    <span class="kicker">🛠️ Free agent · not for hire, building for me</span>
+  </header>
+
+  <!-- NEWSLETTER (primary CTA) -->
+  <section>
+    <div class="card news">
+      <h2>Get the free stuff 💌</h2>
+      <p class="sub"><!-- LEAD MAGNET: replace this line with your freebie -->[Your free lead magnet goes here], plus the honest, behind-the-scenes of building an independent book of business. No fluff.</p>
+
+      <!-- ============================================================
+           BEEHIIV SIGNUP
+           Option A (recommended): paste your beehiiv EMBED here,
+           replacing everything between the ==== markers below.
+           In beehiiv: Grow → Subscribe Forms → Embed → copy the <iframe>.
+           Point it at ONE of your 3 existing publications (free plan
+           caps at 3, so we reuse, pick the most on-brand one).
+           ============================================================ -->
+      <form class="email-row" action="BEEHIIV_SUBSCRIBE_URL" method="get" target="_blank"
+            onsubmit="if(this.action==='BEEHIIV_SUBSCRIBE_URL'){alert('Heads up: paste your beehiiv subscribe URL into the form action first.');return false;}">
+        <input type="email" name="email" placeholder="you@email.com" required aria-label="Email address">
+        <button type="submit">Join free</button>
+      </form>
+      <!-- ============================================================ -->
+
+      <p class="tiny">Unsubscribe anytime. I only send stuff I'd actually want to read.</p>
+    </div>
+  </section>
+
+  <!-- SHOP + TIKTOK -->
+  <section>
+    <div class="stack">
+      <a class="btn shop" href="SHOP_URL" target="_blank" rel="noopener">
+        <span class="ico">🛍️</span>
+        <span class="meta">My TikTok Shop<small>The tools & products I actually use</small></span>
+        <span class="arrow">→</span>
+      </a>
+      <a class="btn tiktok" href="https://www.tiktok.com/@juliethebuilder" target="_blank" rel="noopener">
+        <span class="ico">♪</span>
+        <span class="meta">Follow on TikTok<small>@juliethebuilder</small></span>
+        <span class="arrow">→</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- WORK WITH ME -->
+  <section>
+    <div class="card">
+      <h2>Work with me</h2>
+      <p class="sub">I help independent sellers and small teams build a book of business they actually own, no corporate leash.</p>
+      <div class="stack">
+        <a class="btn" href="https://juliejamesconsulting.com" target="_blank" rel="noopener">
+          <span class="ico">💼</span>
+          <span class="meta">Consulting & advisory<small>juliejamesconsulting.com</small></span>
+          <span class="arrow">→</span>
+        </a>
+        <a class="btn" href="mailto:hello@juliebuilds.com">
+          <span class="ico">✉️</span>
+          <span class="meta">Email me<small>hello@juliebuilds.com</small></span>
+          <span class="arrow">→</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section>
+    <div class="card about">
+      <h2>Hey, I'm Julie 👋</h2>
+      <p>For over a decade I've built my own book of business, and I've kept it <em>mine</em>. No W2 that can fire me without cause and walk off with my relationships behind a hefty NDA. I chose independent, on purpose, and I'm still choosing it.</p>
+      <p>Now I'm building the next chapter out loud: the sales truths nobody tells you, the real life of doing this at 40-something, and the tools I lean on to keep it all running. Some of those tools are in my shop. Some of the lessons are free in the newsletter. All of it is honest.</p>
+      <p>Pull up a chair. This is the good version.</p>
+    </div>
+  </section>
+
+  <footer>
+    © <span id="yr"></span> Julie Builds · <a href="https://www.tiktok.com/@juliethebuilder" target="_blank" rel="noopener">@juliethebuilder</a>
+  </footer>
+
+</div>
+<script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
+</body>
+</html>

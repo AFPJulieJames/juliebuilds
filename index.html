@@ -14,7 +14,7 @@
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
   :root{
     --bg:#faf6f1; --card:#ffffff; --ink:#1c1a19; --muted:#6f6a66;
@@ -25,16 +25,16 @@
   body{background:
       radial-gradient(1200px 500px at 50% -200px, #ffe6ef 0%, rgba(255,230,239,0) 60%),
       var(--bg);
-    color:var(--ink);font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
+    color:var(--ink);font-family:'Work Sans',-apple-system,BlinkMacSystemFont,sans-serif;
     line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 18px 60px}
   .wrap{max-width:520px;margin:0 auto}
   header{text-align:center;padding:44px 0 10px}
   .avatar{width:210px;height:270px;border-radius:18px;margin:0 auto 18px;overflow:hidden;
     border:4px solid #fff;box-shadow:var(--shadow);background:linear-gradient(135deg,#ff8fb1,#ff5c8a);
-    display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Fraunces',serif;
+    display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Lora',serif;
     font-size:52px;font-weight:700}
   .avatar img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
-  h1{font-family:'Fraunces',serif;font-size:30px;font-weight:700;letter-spacing:-.01em}
+  h1{font-family:'Lora',serif;font-size:30px;font-weight:700;letter-spacing:-.01em}
   .handle{color:var(--accent-ink);font-weight:600;font-size:14px;margin-top:2px}
   .tagline{color:var(--muted);font-size:15px;margin:14px auto 0;max-width:420px}
   .kicker{display:inline-block;background:#fff;border:1px solid var(--line);color:var(--muted);
@@ -42,7 +42,7 @@
   section{margin-top:16px}
   .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
     padding:20px;box-shadow:var(--shadow)}
-  .card h2{font-family:'Fraunces',serif;font-size:20px;font-weight:600;margin-bottom:6px}
+  .card h2{font-family:'Lora',serif;font-size:20px;font-weight:600;margin-bottom:6px}
   .card p.sub{color:var(--muted);font-size:14px;margin-bottom:14px}
   /* buttons */
   .btn{display:flex;align-items:center;gap:12px;width:100%;text-decoration:none;color:var(--ink);
@@ -72,6 +72,14 @@
   footer{text-align:center;color:var(--muted);font-size:12px;margin-top:26px}
   footer a{color:var(--accent-ink);text-decoration:none}
   .divider{height:1px;background:var(--line);margin:18px 0}
+  .closing .card{text-align:center;margin-top:20px}
+  .cta-btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;font-size:15px;padding:13px 22px;border-radius:12px}
+  .cta-btn:hover{filter:brightness(1.05)}
+  .site-footer{max-width:520px;margin:34px auto 0;padding:22px 0 40px;text-align:center}
+  .foot-links{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;margin-bottom:12px}
+  .foot-links a{color:var(--accent-ink);text-decoration:none;font-size:13px;font-weight:600}
+  .foot-links a:hover{text-decoration:underline}
+  .foot-copy{color:var(--muted);font-size:12px}
 </style>
 </head>
 <body>
@@ -105,8 +113,8 @@
   <section>
     <div class="stack">
       <a class="btn shop" href="https://www.amazon.com/shop/automatedincometools?linkCode=spc&amp;tag=prompt2purchasegpt-20&amp;ccs_id=a2a46296-5fb2-4cf6-9e62-990de58924bc" target="_blank" rel="noopener">
-        <span class="ico">🏠</span>
-        <span class="meta">My home-office kit<small>The tools I actually use, on my Amazon storefront</small></span>
+        <span class="ico">🧰</span>
+        <span class="meta">The Kit<small>The gear and tools I actually use, on Amazon</small></span>
         <span class="arrow">→</span>
       </a>
       <a class="btn tiktok" href="https://www.tiktok.com/@juliethebuilder" target="_blank" rel="noopener">
@@ -115,8 +123,8 @@
         <span class="arrow">→</span>
       </a>
       <a class="btn" href="/blog.html">
-        <span class="ico">🤖</span>
-        <span class="meta">The AI Life Edit<small>How I really use AI to run this solo</small></span>
+        <span class="ico">✍️</span>
+        <span class="meta">Field Notes<small>Honest notes on building a business solo</small></span>
         <span class="arrow">→</span>
       </a>
     </div>
@@ -152,8 +160,25 @@
     </div>
   </section>
 
-  <footer>
-    © <span id="yr"></span> Julie Builds · <a href="https://www.tiktok.com/@juliethebuilder" target="_blank" rel="noopener">@juliethebuilder</a>
+  <!-- CLOSING CTA -->
+  <section class="closing">
+    <div class="card news">
+      <h2>One more thing 💌</h2>
+      <p class="sub">The Free Agent Checklist, plus honest notes on building a business that's yours. Free, no fluff.</p>
+      <a class="cta-btn" href="#newsletter">Get the free checklist</a>
+    </div>
+  </section>
+
+  <footer class="site-footer">
+    <nav class="foot-links">
+      <a href="#newsletter">Newsletter</a>
+      <a href="/blog.html">Field Notes</a>
+      <a href="https://www.amazon.com/shop/automatedincometools?linkCode=spc&amp;tag=prompt2purchasegpt-20&amp;ccs_id=a2a46296-5fb2-4cf6-9e62-990de58924bc" target="_blank" rel="noopener">The Kit</a>
+      <a href="https://juliejamesconsulting.com" target="_blank" rel="noopener">Work with me</a>
+      <a href="https://www.tiktok.com/@juliethebuilder" target="_blank" rel="noopener">TikTok</a>
+      <a href="mailto:hello@juliebuilds.com">Email</a>
+    </nav>
+    <p class="foot-copy">© <span id="yr"></span> Julie Builds · Built independent.</p>
   </footer>
 
 </div>

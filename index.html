@@ -73,6 +73,8 @@
   .email-row button{background:var(--accent);color:#fff;border:none;border-radius:12px;padding:14px 20px;
     font-weight:700;font-size:15px;cursor:pointer}
   .email-row button:hover{filter:brightness(1.05)}
+  /* beehiiv embed: keep it flush and full width on every screen */
+  .bh-embed{width:100%;border:none;display:block;background:transparent;margin:2px 0 0}
   .tiny{font-size:12px;color:var(--muted);margin-top:10px}
   /* about */
   .about p{color:#403b37;font-size:14.5px;margin-bottom:10px}
@@ -120,8 +122,12 @@
       <h2>Get the free checklist 💌</h2>
       <p class="sub"><strong>The Free Agent Checklist:</strong> 12 moves to independent income you actually own. Join free and I'll send it, plus the honest behind-the-scenes of building a book of business that's yours. No fluff.</p>
 
-      <!-- beehiiv subscribe form (Julie Builds publication) -->
-      <script async src="https://subscribe-forms.beehiiv.com/v3/loader.js" data-beehiiv-form="223d6433-2229-4837-8103-cb09bb7bd6c3"></script>
+      <!-- beehiiv subscribe form (Julie Builds publication) — slim inline embed: one responsive row, same on mobile + desktop -->
+      <iframe src="https://embeds.beehiiv.com/d23d0eaa-d7f7-4b0e-a4a0-c19716c136cf?slim=true"
+              class="bh-embed"
+              data-test-id="beehiiv-embed"
+              height="64" frameborder="0" scrolling="no"
+              title="Subscribe to Julie Builds"></iframe>
 
       <p class="tiny">Unsubscribe anytime. I only send stuff I'd actually want to read.</p>
     </div>

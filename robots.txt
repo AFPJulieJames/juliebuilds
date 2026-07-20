@@ -1,4 +1,9 @@
 User-agent: *
 Allow: /
 
+# Subscriber-only assets. Not secret, just not for search results,
+# so the newsletter stays the front door.
+Disallow: /library/
+Disallow: /vault-jb26.html
+
 Sitemap: https://juliebuilds.com/sitemap.xml

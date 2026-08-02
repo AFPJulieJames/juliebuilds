@@ -12,63 +12,70 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
-  :root{--bg:#faf6f1;--card:#fff;--ink:#1c1a19;--muted:#6f6a66;--accent:#ff5c8a;--accent-ink:#c62f61;--line:#ece4db;--radius:14px;--shadow:0 10px 30px rgba(40,30,25,.08)}
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--ink);font-family:'Work Sans',-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
-  .wrap{max-width:700px;margin:0 auto;padding:40px 20px 70px}
-  .series{display:inline-block;background:#ffe6ef;color:var(--accent-ink);font-size:12px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;padding:5px 12px;border-radius:999px;margin-bottom:14px}
-  h1{font-family:'Lora',serif;font-size:38px;line-height:1.1;font-weight:700;letter-spacing:-.01em;margin-bottom:12px}
-  .intro{font-size:17px;color:var(--muted);margin-bottom:28px}
-  .item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin-bottom:12px;box-shadow:var(--shadow);display:flex;align-items:center;gap:16px;flex-wrap:wrap}
-  .item .meta{flex:1;min-width:220px}
-  .item h2{font-family:'Lora',serif;font-size:20px;font-weight:600;margin-bottom:3px}
-  .item p{color:var(--muted);font-size:14px}
-  .btn{display:inline-block;text-decoration:none;font-weight:700;font-size:14px;padding:11px 18px;border-radius:10px;background:var(--accent);color:#fff;white-space:nowrap}
-  .note{background:linear-gradient(160deg,#fff,#fff7fa);border:1px solid #ffd9e6;border-radius:var(--radius);padding:20px;margin-top:22px}
-  .note p{font-size:15px;color:#403b37}
-  footer{max-width:700px;margin:0 auto;padding:24px 20px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);text-align:center}
-  footer a{color:var(--accent-ink);text-decoration:none}
-  @media(max-width:600px){h1{font-size:30px}}
+:root{--bg:#faf6f1;--card:#fff;--ink:#1c1a19;--muted:#6f6a66;--accent:#ff5c8a;--accent-ink:#c62f61;--line:#ece4db;--radius:14px;--shadow:0 10px 30px rgba(40,30,25,.08)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--ink);font-family:'Work Sans',-apple-system,BlinkMacSystemFont,sans-serif;line-height:1.6;-webkit-font-smoothing:antialiased}
+.wrap{max-width:700px;margin:0 auto;padding:40px 20px 70px}
+.series{display:inline-block;background:#ffe6ef;color:var(--accent-ink);font-size:12px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;padding:5px 12px;border-radius:999px;margin-bottom:14px}
+h1{font-family:'Lora',serif;font-size:38px;line-height:1.1;font-weight:700;letter-spacing:-.01em;margin-bottom:12px}
+.intro{font-size:17px;color:var(--muted);margin-bottom:28px}
+.item{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:20px;margin-bottom:12px;box-shadow:var(--shadow);display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.item.new{border-color:#ffd9e6;background:linear-gradient(160deg,#fff,#fff7fa)}
+.item .meta{flex:1;min-width:220px}
+.item h2{font-family:'Lora',serif;font-size:20px;font-weight:600;margin-bottom:3px}
+.item p{color:var(--muted);font-size:14px}
+.flag{display:inline-block;background:#ffe6ef;color:var(--accent-ink);font-size:10px;font-weight:700;letter-spacing:.4px;text-transform:uppercase;padding:3px 8px;border-radius:999px;margin-bottom:6px}
+.btn{display:inline-block;text-decoration:none;font-weight:700;font-size:14px;padding:11px 18px;border-radius:10px;background:var(--accent);color:#fff;white-space:nowrap}
+.note{background:linear-gradient(160deg,#fff,#fff7fa);border:1px solid #ffd9e6;border-radius:var(--radius);padding:20px;margin-top:22px}
+.note p{font-size:15px;color:#403b37}
+footer{max-width:700px;margin:0 auto;padding:24px 20px;color:var(--muted);font-size:13px;border-top:1px solid var(--line);text-align:center}
+footer a{color:var(--accent-ink);text-decoration:none}
+@media(max-width:600px){h1{font-size:30px}}
 </style>
 </head>
 <body>
 <div class="wrap">
-  <span class="series">Subscriber library</span>
-  <h1>Everything, in one place</h1>
-  <p class="intro">Thanks for subscribing. Here is the whole library. Bookmark this page, I add to it.</p>
+<span class="series">Subscriber library</span>
+<h1>Everything, in one place</h1>
+<p class="intro">Thanks for subscribing. Here is the whole library. Bookmark this page, I add to it.</p>
 
-  <div class="item">
-    <div class="meta"><h2>The Free Agent Checklist</h2><p>12 moves to independent income you actually own.</p></div>
-    <a class="btn" href="/free-agent-checklist.pdf" target="_blank" rel="noopener">Download</a>
-  </div>
+<div class="item new">
+<div class="meta"><span class="flag">Start here</span><h2>The Live Deal Prompt Pack</h2><p>The 10 AI prompts I actually use before I reach out to anyone. Works whether you call, email, or DM.</p></div>
+<a class="btn" href="/library/live-deal-prompt-pack.pdf" target="_blank" rel="noopener">Download</a>
+</div>
 
-  <div class="item">
-    <div class="meta"><h2>The Cold Call Playbook</h2><p>What still works on the phone, built on 2026 data from 200,000+ calls.</p></div>
-    <a class="btn" href="/library/cold-call-playbook.pdf" target="_blank" rel="noopener">Download</a>
-  </div>
+<div class="item">
+<div class="meta"><h2>The Cold Call Playbook</h2><p>What still works on the phone, built on 2026 data from 200,000+ calls.</p></div>
+<a class="btn" href="/library/cold-call-playbook.pdf" target="_blank" rel="noopener">Download</a>
+</div>
 
-  <div class="item">
-    <div class="meta"><h2>The Cross-Industry Negotiation Playbook</h2><p>The concession ladder, the language, and what backfires now.</p></div>
-    <a class="btn" href="/library/cross-industry-negotiation-playbook.pdf" target="_blank" rel="noopener">Download</a>
-  </div>
+<div class="item">
+<div class="meta"><h2>Four Things I Write Down After Every Call</h2><p>The ninety-second habit a twelve-year book of business rests on.</p></div>
+<a class="btn" href="/library/four-things-after-every-call.pdf" target="_blank" rel="noopener">Download</a>
+</div>
 
-  <div class="item">
-    <div class="meta"><h2>Four Things I Write Down After Every Call</h2><p>The ninety-second habit a twelve-year book of business rests on.</p></div>
-    <a class="btn" href="/library/four-things-after-every-call.pdf" target="_blank" rel="noopener">Download</a>
-  </div>
+<div class="item">
+<div class="meta"><h2>The Cross-Industry Negotiation Playbook</h2><p>The concession ladder, the language, and what backfires now.</p></div>
+<a class="btn" href="/library/cross-industry-negotiation-playbook.pdf" target="_blank" rel="noopener">Download</a>
+</div>
 
-  <div class="note">
-    <p>Hit reply on any email and tell me what you are working on. I read every one, and it tells me what to build next.</p>
-  </div>
+<div class="item">
+<div class="meta"><h2>The Free Agent Checklist</h2><p>12 moves to independent income you actually own.</p></div>
+<a class="btn" href="/free-agent-checklist.pdf" target="_blank" rel="noopener">Download</a>
+</div>
+
+<div class="note">
+<p>Hit reply on any email and tell me what you are working on. I read every one, and it tells me what to build next.</p>
+</div>
 </div>
 <footer>
-  <nav style="display:flex;flex-wrap:wrap;justify-content:center;gap:9px 18px;margin-bottom:9px">
-    <a href="/">Julie Builds</a>
-    <a href="/blog.html">Field Notes</a>
-    <a href="https://juliejamesconsulting.com" target="_blank" rel="noopener">Work with me</a>
-    <a href="mailto:hello@juliebuilds.com">Email</a>
-  </nav>
-  <div style="color:#6f6a66;font-size:12px">&copy; 2026 Julie Builds &middot; Built independent.</div>
+<nav style="display:flex;flex-wrap:wrap;justify-content:center;gap:9px 18px;margin-bottom:9px">
+<a href="/">Julie Builds</a>
+<a href="/blog.html">Field Notes</a>
+<a href="https://juliejamesconsulting.com" target="_blank" rel="noopener">Work with me</a>
+<a href="mailto:hello@juliebuilds.com">Email</a>
+</nav>
+<div style="color:#6f6a66;font-size:12px">&copy; 2026 Julie Builds &middot; Built independent.</div>
 </footer>
 </body>
 </html>

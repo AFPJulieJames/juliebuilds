@@ -4,215 +4,270 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-V83KKQ8NFV"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-V83KKQ8NFV');
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-V83KKQ8NFV');
 </script>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Julie Builds, sales truths, real life at 40+, tools I actually use</title>
-<meta name="description" content="25 years in sales. The last 12 building my own book of business and keeping it independent, and it's still active today. Sales truths, real life at 40+, and the tools I actually use.">
+<title>Julie Builds, AI for people who actually sell</title>
+<meta name="description" content="25 years in sales, still carrying a number. The AI prompts and workflows I actually use on live deals.">
+<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1">
+<meta name="author" content="Julie James">
 <!-- Open Graph (for when the link is shared) -->
-<meta property="og:title" content="Julie Builds">
-<meta property="og:description" content="25 years in sales. The last 12 building my own book of business, still active. Sales truths · real life at 40+ · tools I actually use.">
+<meta property="og:title" content="Julie Builds, AI for people who actually sell">
+<meta property="og:description" content="25 years in sales, still carrying a number. The AI prompts and workflows I actually use on live deals.">
 <meta property="og:type" content="website">
 <meta property="og:url" content="https://juliebuilds.com/">
+<meta property="og:site_name" content="Julie Builds">
+<meta property="og:image" content="https://juliebuilds.com/og-thumb.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Julie Builds, AI for people who actually sell">
+<meta name="twitter:description" content="25 years in sales, still carrying a number. The AI prompts and workflows I actually use on live deals.">
+<meta name="twitter:image" content="https://juliebuilds.com/og-thumb.png">
 <link rel="canonical" href="https://juliebuilds.com/">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,600;0,700;1,400&family=Work+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<!-- Structured data: Person + WebSite. Helps Google and the AI answer engines
+     understand who this is and what she is an authority on. -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Person",
+      "@id": "https://juliebuilds.com/#julie",
+      "name": "Julie James",
+      "url": "https://juliebuilds.com/",
+      "image": "https://juliebuilds.com/julie.jpg",
+      "email": "hello@juliebuilds.com",
+      "jobTitle": "Independent Salesperson and Sales Advisor",
+      "description": "Julie James has 25 years in sales, the last 12 building and keeping her own book of business, and is still actively selling. She writes about the AI prompts and workflows she uses on live deals.",
+      "knowsAbout": [
+        "AI for sales",
+        "AI prompts for salespeople",
+        "Pre-outreach account research",
+        "Cold calling",
+        "Sales prospecting",
+        "Objection handling",
+        "Pipeline management",
+        "Independent sales careers"
+      ],
+      "sameAs": [
+        "https://www.tiktok.com/@juliethebuilder",
+        "https://juliejamesconsulting.com"
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://juliebuilds.com/#website",
+      "url": "https://juliebuilds.com/",
+      "name": "Julie Builds",
+      "description": "AI for people who actually sell. The prompts and workflows Julie James uses on live deals.",
+      "inLanguage": "en-US",
+      "publisher": { "@id": "https://juliebuilds.com/#julie" }
+    },
+    {
+      "@type": "ProfilePage",
+      "@id": "https://juliebuilds.com/#profilepage",
+      "url": "https://juliebuilds.com/",
+      "name": "Julie Builds, AI for people who actually sell",
+      "isPartOf": { "@id": "https://juliebuilds.com/#website" },
+      "about": { "@id": "https://juliebuilds.com/#julie" },
+      "mainEntity": { "@id": "https://juliebuilds.com/#julie" }
+    }
+  ]
+}
+</script>
+
 <style>
-  :root{
-    --bg:#faf6f1; --card:#ffffff; --ink:#1c1a19; --muted:#6f6a66;
-    --accent:#ff5c8a; --accent-ink:#c62f61; --line:#ece4db; --tiktok:#111;
-    --radius:16px; --shadow:0 10px 30px rgba(40,30,25,.08);
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{background:
-      radial-gradient(1200px 500px at 50% -200px, #ffe6ef 0%, rgba(255,230,239,0) 60%),
-      var(--bg);
-    color:var(--ink);font-family:'Work Sans',-apple-system,BlinkMacSystemFont,sans-serif;
-    line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 18px 60px}
-  .wrap{max-width:520px;margin:0 auto}
-  header{text-align:center;padding:44px 0 10px}
-  .avatar{width:210px;height:270px;border-radius:18px;margin:0 auto 18px;overflow:hidden;
-    border:4px solid #fff;box-shadow:var(--shadow);background:linear-gradient(135deg,#ff8fb1,#ff5c8a);
-    display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Lora',serif;
-    font-size:52px;font-weight:700}
-  .avatar img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
-  h1{font-family:'Lora',serif;font-size:30px;font-weight:700;letter-spacing:-.01em}
-  .handle{color:var(--accent-ink);font-weight:600;font-size:14px;margin-top:2px}
-  .tagline{color:var(--muted);font-size:15px;margin:14px auto 0;max-width:420px}
-  .kicker{display:inline-block;background:#fff;border:1px solid var(--line);color:var(--muted);
-    font-size:12px;font-weight:600;padding:5px 12px;border-radius:999px;margin-top:16px}
-  section{margin-top:16px}
-  .card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
-    padding:20px;box-shadow:var(--shadow)}
-  .card h2{font-family:'Lora',serif;font-size:20px;font-weight:600;margin-bottom:6px}
-  .card p.sub{color:var(--muted);font-size:14px;margin-bottom:14px}
-  /* buttons */
-  .btn{display:flex;align-items:center;gap:12px;width:100%;text-decoration:none;color:var(--ink);
-    background:#fff;border:1px solid var(--line);border-radius:14px;padding:15px 16px;font-weight:600;
-    font-size:15px;transition:transform .08s ease, box-shadow .15s ease;box-shadow:0 2px 0 rgba(40,30,25,.03)}
-  .btn:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
-  .btn .ico{width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;
-    font-size:17px;flex:none;background:#faf6f1}
-  .btn .meta{display:flex;flex-direction:column;line-height:1.25}
-  .btn .meta small{color:var(--muted);font-weight:500;font-size:12px}
-  .btn .arrow{margin-left:auto;color:var(--muted)}
-  .btn.tiktok .ico{background:#111;color:#fff}
-  .btn.shop .ico{background:#ffe6ef;color:var(--accent-ink)}
-  .stack{display:flex;flex-direction:column;gap:10px}
-  /* newsletter */
-  .news{background:linear-gradient(160deg,#fff 0%,#fff7fa 100%);border-color:#ffd9e6}
-  .email-row{display:flex;gap:8px;flex-wrap:wrap}
-  .email-row input{flex:1;min-width:180px;border:1px solid var(--line);border-radius:12px;padding:14px;
-    font-size:15px;font-family:inherit}
-  .email-row button{background:var(--accent);color:#fff;border:none;border-radius:12px;padding:14px 20px;
-    font-weight:700;font-size:15px;cursor:pointer}
-  .email-row button:hover{filter:brightness(1.05)}
-  /* beehiiv embed: keep it flush and full width on every screen */
-  .bh-embed{width:100%;border:none;display:block;background:transparent;margin:2px 0 0}
-  .tiny{font-size:12px;color:var(--muted);margin-top:10px}
-  /* about */
-  .about p{color:#403b37;font-size:14.5px;margin-bottom:10px}
-  .about p:last-child{margin-bottom:0}
-  footer{text-align:center;color:var(--muted);font-size:12px;margin-top:26px}
-  footer a{color:var(--accent-ink);text-decoration:none}
-  .divider{height:1px;background:var(--line);margin:18px 0}
-  .closing .card{text-align:center;margin-top:20px}
-  .cta-btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;font-size:15px;padding:13px 22px;border-radius:12px}
-  .cta-btn:hover{filter:brightness(1.05)}
-  .site-footer{max-width:520px;margin:34px auto 0;padding:22px 0 40px;text-align:center}
-  .foot-links{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;margin-bottom:12px}
-  .foot-links a{color:var(--accent-ink);text-decoration:none;font-size:13px;font-weight:600}
-  .foot-links a:hover{text-decoration:underline}
-  .foot-copy{color:var(--muted);font-size:12px}
-  .topnav{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 20px;padding:14px 0 2px;margin-bottom:2px}
-  .topnav a{color:var(--accent-ink);text-decoration:none;font-size:13px;font-weight:600}
-  .topnav a:hover{text-decoration:underline}
+:root{
+--bg:#faf6f1; --card:#ffffff; --ink:#1c1a19; --muted:#6f6a66;
+--accent:#ff5c8a; --accent-ink:#c62f61; --line:#ece4db; --tiktok:#111;
+--radius:16px; --shadow:0 10px 30px rgba(40,30,25,.08);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:
+radial-gradient(1200px 500px at 50% -200px, #ffe6ef 0%, rgba(255,230,239,0) 60%),
+var(--bg);
+color:var(--ink);font-family:'Work Sans',-apple-system,BlinkMacSystemFont,sans-serif;
+line-height:1.5;-webkit-font-smoothing:antialiased;padding:0 18px 60px}
+.wrap{max-width:520px;margin:0 auto}
+header{text-align:center;padding:44px 0 10px}
+.avatar{width:210px;height:270px;border-radius:18px;margin:0 auto 18px;overflow:hidden;
+border:4px solid #fff;box-shadow:var(--shadow);background:linear-gradient(135deg,#ff8fb1,#ff5c8a);
+display:flex;align-items:center;justify-content:center;color:#fff;font-family:'Lora',serif;
+font-size:52px;font-weight:700}
+.avatar img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+h1{font-family:'Lora',serif;font-size:30px;font-weight:700;letter-spacing:-.01em}
+.handle{color:var(--accent-ink);font-weight:600;font-size:14px;margin-top:2px}
+.promise{font-family:'Lora',serif;font-size:20px;font-weight:600;color:var(--ink);
+margin:14px auto 0;max-width:420px;letter-spacing:-.01em}
+.tagline{color:var(--muted);font-size:15px;margin:10px auto 0;max-width:420px}
+section{margin-top:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+padding:20px;box-shadow:var(--shadow)}
+.card h2{font-family:'Lora',serif;font-size:20px;font-weight:600;margin-bottom:6px}
+.card p.sub{color:var(--muted);font-size:14px;margin-bottom:14px}
+/* buttons */
+.btn{display:flex;align-items:center;gap:12px;width:100%;text-decoration:none;color:var(--ink);
+background:#fff;border:1px solid var(--line);border-radius:14px;padding:15px 16px;font-weight:600;
+font-size:15px;transition:transform .08s ease, box-shadow .15s ease;box-shadow:0 2px 0 rgba(40,30,25,.03)}
+.btn:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.btn .ico{width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;
+font-size:17px;flex:none;background:#faf6f1}
+.btn .meta{display:flex;flex-direction:column;line-height:1.25}
+.btn .meta small{color:var(--muted);font-weight:500;font-size:12px}
+.btn .arrow{margin-left:auto;color:var(--muted)}
+.btn.tiktok .ico{background:#111;color:#fff}
+.stack{display:flex;flex-direction:column;gap:10px}
+/* newsletter */
+.news{background:linear-gradient(160deg,#fff 0%,#fff7fa 100%);border-color:#ffd9e6}
+/* beehiiv embed: keep it flush and full width on every screen */
+.bh-embed{width:100%;border:none;display:block;background:transparent;margin:2px 0 0}
+.tiny{font-size:12px;color:var(--muted);margin-top:10px}
+/* about */
+.about p{color:#403b37;font-size:14.5px;margin-bottom:10px}
+.about p:last-child{margin-bottom:0}
+footer{text-align:center;color:var(--muted);font-size:12px;margin-top:26px}
+footer a{color:var(--accent-ink);text-decoration:none}
+.closing .card{text-align:center;margin-top:20px}
+.cta-btn{display:inline-block;background:var(--accent);color:#fff;text-decoration:none;font-weight:700;font-size:15px;padding:13px 22px;border-radius:12px}
+.cta-btn:hover{filter:brightness(1.05)}
+.site-footer{max-width:520px;margin:34px auto 0;padding:22px 0 40px;text-align:center}
+.foot-links{display:flex;flex-wrap:wrap;justify-content:center;gap:10px 18px;margin-bottom:12px}
+.foot-links a{color:var(--accent-ink);text-decoration:none;font-size:13px;font-weight:600}
+.foot-links a:hover{text-decoration:underline}
+.foot-copy{color:var(--muted);font-size:12px}
+.topnav{display:flex;flex-wrap:wrap;justify-content:center;gap:8px 20px;padding:14px 0 2px;margin-bottom:2px}
+.topnav a{color:var(--accent-ink);text-decoration:none;font-size:13px;font-weight:600}
+.topnav a:hover{text-decoration:underline}
 </style>
 </head>
 <body>
 <div class="wrap">
 
-  <nav class="topnav">
-    <a href="#newsletter">Newsletter</a>
-    <a href="/library.html">The Library</a>
-    <a href="/blog.html">Field Notes</a>
-    <a href="https://www.amazon.com/shop/automatedincometools?linkCode=spc&amp;tag=prompt2purchasegpt-20&amp;ccs_id=a2a46296-5fb2-4cf6-9e62-990de58924bc" target="_blank" rel="noopener">The Kit</a>
-    <a href="https://juliejamesconsulting.com" target="_blank" rel="noopener">Work with me</a>
-  </nav>
+<!-- CHANGE 3: "Work with me" removed from the top nav only. It is still a full
+     section below and still in the footer. -->
+<nav class="topnav">
+<a href="#newsletter">Newsletter</a>
+<a href="/library.html">The Library</a>
+<a href="/blog.html">Field Notes</a>
+</nav>
 
-  <header>
-    <div class="avatar">
-      <!-- Drop a square photo named julie.jpg in this folder to replace the monogram -->
-      <img src="julie.jpg" alt="Julie" onerror="this.style.display='none';this.parentNode.innerHTML='JB'">
-    </div>
-    <h1>Julie Builds</h1>
-    <div class="handle">@juliethebuilder</div>
-    <p class="tagline">25 years in sales. The last 12 building my own book of business, still going. Sales truths, real life at 40+, and the tools I actually use.</p>
-    <span class="kicker">🛠️ Free agent · independent 12 years and counting</span>
-  </header>
+<header>
+<div class="avatar">
+<!-- Drop a square photo named julie.jpg in this folder to replace the monogram -->
+<img src="julie.jpg" alt="Julie James, independent salesperson and writer of Julie Builds" onerror="this.style.display='none';this.parentNode.innerHTML='JB'">
+</div>
+<h1>Julie Builds</h1>
+<div class="handle">@juliethebuilder</div>
+<!-- CHANGE 1: hero rewrite -->
+<p class="promise">AI for people who actually sell.</p>
+<p class="tagline">25 years in sales, 12 of them independent, and I am still carrying a number today. Which means I am not teaching from memory. The prompts and workflows I actually use on live deals.</p>
+</header>
 
-  <!-- NEWSLETTER (primary CTA) -->
-  <section id="newsletter">
-    <div class="card news">
-      <h2>Get the free checklist 💌</h2>
-      <p class="sub"><strong>The Free Agent Checklist:</strong> 12 moves to independent income you actually own. Join free and I'll send it, plus what building a book of business actually looks like week to week.</p>
+<!-- NEWSLETTER (primary CTA) -->
+<!-- CHANGE 2: lead magnet swapped to The Live Deal Prompt Pack -->
+<section id="newsletter">
+<div class="card news">
+<h2>Get the free prompt pack 💌</h2>
+<p class="sub"><strong>The Live Deal Prompt Pack:</strong> the 10 AI prompts I actually use on real deals. Account research, openers, objection handling, and follow up that does not sound like a robot. Works whether you call, email, or DM. Join free and I will send it, plus what I am testing week to week.</p>
 
-      <!-- beehiiv subscribe form (Julie Builds publication) — slim inline form: one responsive row, same on mobile + desktop -->
-      <iframe src="https://subscribe-forms.beehiiv.com/v3/forms/223d6433-2229-4837-8103-cb09bb7bd6c3?layout=slim"
-              class="bh-embed"
-              data-test-id="beehiiv-embed"
-              height="72" frameborder="0" scrolling="no"
-              title="Subscribe to Julie Builds"></iframe>
+<!-- beehiiv subscribe form (Julie Builds publication), slim inline form -->
+<iframe src="https://subscribe-forms.beehiiv.com/v3/forms/223d6433-2229-4837-8103-cb09bb7bd6c3?layout=slim"
+class="bh-embed"
+data-test-id="beehiiv-embed"
+height="72" frameborder="0" scrolling="no"
+title="Subscribe to Julie Builds"></iframe>
 
-      <p class="tiny">Unsubscribe anytime. I only send stuff I'd actually want to read.</p>
-    </div>
-  </section>
+<p class="tiny">Unsubscribe anytime. I only send stuff I'd actually want to read.</p>
+</div>
+</section>
 
-  <!-- SHOP + TIKTOK -->
-  <section>
-    <div class="stack">
-      <a class="btn shop" href="https://www.amazon.com/shop/automatedincometools?linkCode=spc&amp;tag=prompt2purchasegpt-20&amp;ccs_id=a2a46296-5fb2-4cf6-9e62-990de58924bc" target="_blank" rel="noopener">
-        <span class="ico">🧰</span>
-        <span class="meta">The Kit<small>The gear and tools I actually use, on Amazon</small></span>
-        <span class="arrow">→</span>
-      </a>
-      <a class="btn tiktok" href="https://www.tiktok.com/@juliethebuilder" target="_blank" rel="noopener">
-        <span class="ico">♪</span>
-        <span class="meta">Follow on TikTok<small>@juliethebuilder</small></span>
-        <span class="arrow">→</span>
-      </a>
-      <a class="btn" href="/library.html">
-        <span class="ico">📘</span>
-        <span class="meta">The Library<small>Free one-page sales playbooks</small></span>
-        <span class="arrow">→</span>
-      </a>
-      <a class="btn" href="/blog.html">
-        <span class="ico">✍️</span>
-        <span class="meta">Field Notes<small>What building a business solo actually looks like</small></span>
-        <span class="arrow">→</span>
-      </a>
-    </div>
-  </section>
+<!-- LINKS -->
+<!-- CHANGE 4: The Kit removed (spec Option A, the reversible default).
+     To restore, put the Amazon storefront link back here, in the top nav,
+     and in the footer. -->
+<section>
+<div class="stack">
+<a class="btn tiktok" href="https://www.tiktok.com/@juliethebuilder" target="_blank" rel="noopener">
+<span class="ico">♪</span>
+<span class="meta">Follow on TikTok<small>@juliethebuilder</small></span>
+<span class="arrow">→</span>
+</a>
+<a class="btn" href="/library.html">
+<span class="ico">📘</span>
+<span class="meta">The Library<small>Free one-page sales playbooks and prompt breakdowns</small></span>
+<span class="arrow">→</span>
+</a>
+<!-- CHANGE 5: Field Notes card copy -->
+<a class="btn" href="/blog.html">
+<span class="ico">✍️</span>
+<span class="meta">Field Notes<small>What actually works on live deals, AI included</small></span>
+<span class="arrow">→</span>
+</a>
+</div>
+</section>
 
-  <!-- WORK WITH ME -->
-  <section>
-    <div class="card">
-      <h2>Work with me</h2>
-      <p class="sub">I help independent sellers and small teams build a book of business they own outright.</p>
-      <div class="stack">
-        <a class="btn" href="https://juliejamesconsulting.com" target="_blank" rel="noopener">
-          <span class="ico">💼</span>
-          <span class="meta">Consulting & Advisory<small>juliejamesconsulting.com</small></span>
-          <span class="arrow">→</span>
-        </a>
-        <a class="btn" href="mailto:hello@juliebuilds.com">
-          <span class="ico">✉️</span>
-          <span class="meta">Email me<small>hello@juliebuilds.com</small></span>
-          <span class="arrow">→</span>
-        </a>
-      </div>
-    </div>
-  </section>
+<!-- WORK WITH ME (kept, just demoted out of the nav) -->
+<section>
+<div class="card">
+<h2>Work with me</h2>
+<p class="sub">I help independent sellers and small teams build a book of business they own outright.</p>
+<div class="stack">
+<a class="btn" href="https://juliejamesconsulting.com" target="_blank" rel="noopener">
+<span class="ico">💼</span>
+<span class="meta">Consulting &amp; Advisory<small>juliejamesconsulting.com</small></span>
+<span class="arrow">→</span>
+</a>
+<a class="btn" href="mailto:hello@juliebuilds.com">
+<span class="ico">✉️</span>
+<span class="meta">Email me<small>hello@juliebuilds.com</small></span>
+<span class="arrow">→</span>
+</a>
+</div>
+</div>
+</section>
 
-  <!-- ABOUT -->
-  <section>
-    <div class="card about">
-      <h2>Hey, I'm Julie 👋</h2>
-      <p>I've spent 25 years in sales, and the last 12 building my own book of business and keeping it <em>mine</em>. It's still active today. No W2 that can fire me without cause and walk off with my relationships behind a hefty NDA. I chose independent, on purpose, and I'm still choosing it.</p>
-      <p>I've sold in more than one industry. The fundamentals carried over every time, which is why I think they're worth writing down.</p>
-      <p>Now I'm building the next chapter out loud. Some of the tools I use are in my shop, and if I earn a commission on one, I say so. The lessons are free in the newsletter.</p>
-      <p>Pull up a chair. This is the good version.</p>
-    </div>
-  </section>
+<!-- ABOUT -->
+<section>
+<div class="card about">
+<h2>Hey, I'm Julie 👋</h2>
+<p>I've spent 25 years in sales, and the last 12 building my own book of business and keeping it <em>mine</em>. It's still active today. No W2 that can fire me without cause and walk off with my relationships behind a hefty NDA. I chose independent, on purpose, and I'm still choosing it.</p>
+<p>I've sold in more than one industry. The fundamentals carried over every time, which is why I think they're worth writing down.</p>
+<p>I use AI every day to do this job. Not to talk about AI, to sell with it. Research before outreach, openers, follow up, the unglamorous stuff. What works goes in the newsletter. What doesn't, I say so.</p>
+<p>Pull up a chair. This is the good version.</p>
+</div>
+</section>
 
-  <!-- CLOSING CTA -->
-  <section class="closing">
-    <div class="card news">
-      <h2>One more thing 💌</h2>
-      <p class="sub">The Free Agent Checklist, plus what building a business that's yours actually takes. Free, and short.</p>
-      <a class="cta-btn" href="#newsletter">Get the free checklist</a>
-    </div>
-  </section>
+<!-- CLOSING CTA -->
+<section class="closing">
+<div class="card news">
+<h2>One more thing 💌</h2>
+<p class="sub">The Live Deal Prompt Pack, plus what I am testing week to week on real deals. Free, and short.</p>
+<a class="cta-btn" href="#newsletter">Get the free prompt pack</a>
+</div>
+</section>
 
-  <footer class="site-footer">
-    <nav class="foot-links">
-      <a href="#newsletter">Newsletter</a>
-      <a href="/library.html">The Library</a>
-      <a href="/blog.html">Field Notes</a>
-      <a href="https://www.amazon.com/shop/automatedincometools?linkCode=spc&amp;tag=prompt2purchasegpt-20&amp;ccs_id=a2a46296-5fb2-4cf6-9e62-990de58924bc" target="_blank" rel="noopener">The Kit</a>
-      <a href="https://juliejamesconsulting.com" target="_blank" rel="noopener">Work with me</a>
-      <a href="https://www.tiktok.com/@juliethebuilder" target="_blank" rel="noopener">TikTok</a>
-      <a href="mailto:hello@juliebuilds.com">Email</a>
-    </nav>
-    <p class="foot-copy">© <span id="yr"></span> Julie Builds · Built independent.</p>
-  </footer>
+<footer class="site-footer">
+<nav class="foot-links">
+<a href="#newsletter">Newsletter</a>
+<a href="/library.html">The Library</a>
+<a href="/blog.html">Field Notes</a>
+<a href="https://juliejamesconsulting.com" target="_blank" rel="noopener">Work with me</a>
+<a href="https://www.tiktok.com/@juliethebuilder" target="_blank" rel="noopener">TikTok</a>
+<a href="mailto:hello@juliebuilds.com">Email</a>
+</nav>
+<p class="foot-copy">© <span id="yr"></span> Julie Builds · Built independent.</p>
+</footer>
 
 </div>
 <script>document.getElementById('yr').textContent=new Date().getFullYear();</script>
